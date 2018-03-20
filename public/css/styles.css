@@ -1,0 +1,203 @@
+html, body, #cesiumContainer {
+	height: 100%; 
+	margin: 0; 
+	padding: 0; 
+	overflow: hidden;
+}
+
+#cesiumContainer{
+	margin-left: 50px;
+}
+
+.cesium-viewer-bottom .cesium-widget-credits{
+	/*隐藏cesium信用信息*/
+	display: none;
+}
+
+
+.sideBar{
+	z-index: 99;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+	width: 50px;
+	height: 100%;
+
+	background-color: #263238;
+}
+
+.sideBar_opts{
+	height: 50px;
+	overflow: visible;
+
+	/*border-style: inset;*/
+	border-color: yellow;
+	border-width: 1px;
+}
+.sideBar_opts:hover{
+	background-color: #bfbe83;
+}
+
+.opt_icon{
+	float: left;
+	margin-left: 9px;
+	margin-top: 9px;
+	cursor: pointer;
+}
+
+.sideBar_opts_expand{
+	margin-left: 55px;
+	z-index: 99;
+
+	background-color : rgba(38, 38, 38, 0.75);
+	border: 1px solid #444;
+	border-radius: 5px;
+
+	padding: 2px 5px;
+}
+.sideBar_opts_expand_ctr{
+	position: absolute;
+	margin-left: 55px;
+	z-index: 99;
+
+	background-color : rgba(38, 38, 38, 0.75);
+	border: 1px solid #444;
+	border-radius: 5px;
+
+	padding: 10px 15px;
+}
+
+.label_bg{
+	background-color: #4a4c4c55;
+	box-shadow: 1px 1px 10px 2px #4a4c4c55;
+}
+
+.sideBar_btn{
+	border: none;
+  background: none;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+ 	background-color: #444;
+  padding: 5px 8px;
+  outline: none;
+  text-decoration: none;
+}
+.sideBar_btn:hover{
+	background-color: #2bb1e4;
+}
+
+.sideBar_clikeInput{
+	width: 35px;
+}
+
+#imageryAdjustContainer{
+	width:260px; 
+}
+
+.imageryAdjust_options{
+	display: flex;
+	margin: 8px 4px;
+	color: white;
+}
+
+.imageryAdjust_opt_title{
+	width: 75px;
+	text-align: right;
+	margin-right: 5px;
+	font-size: 16px;
+}
+.imageryAdjust_opt_val{
+	width: 35px;
+	font-size: 16px;
+}
+.imageryAdjust_options div{
+	margin-right: 4px;
+}
+
+#modelManageContainer{
+	width: 190px;
+}
+.modelManage_options{
+	display: flex;
+	margin: 6px 0px;
+}
+.modelManage_options span{
+	width: 140px;
+	text-align: right;
+	color: white;
+	margin-top: 2px;
+	font-size: 16px;
+}
+
+#sysConfigContainer{
+	margin-top: -245px;
+	width: 500px;
+	height: auto;
+	max-height: 600px;
+	overflow: hidden;
+}
+.sysConfig_header{
+	width: 100%;
+	height: 30px;
+	text-align: left;
+	border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #fff;
+}
+.sysConfig_headerTitle{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+.sysConfig_headerReset{
+	margin-left: 360px;
+}
+.sysConfig_body{
+	max-height: 550px;
+	overflow-y: auto;
+}
+.sysConfig_body_ctg{
+	padding-top: 10px;
+}
+.sysConfig_body_ctg_header{
+	color: white;
+	color: #bfbe83;
+	font-size: 14px;
+	font-weight: bold;
+}
+.sysConfig_body_ctg_li{
+	padding-left: 0px;
+}
+.sysConfig_options{
+	height: 40px;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-bottom-color: #adadad;
+  padding: 10px 0;
+}
+.sysConfig_options_header{
+	width: 300px;
+	display: flex;
+	color: white;
+}
+.sysConfig_options_desc{
+	width: 300px;
+	color: gray;
+}
+.sysConfig_options_tag{
+	display: flex;
+	float: right;
+	margin-top: -5px;
+	margin-right: 10px;
+}
+
+#imageryTerrainContainer{
+	margin-top: -100px;
+	width: 300px;
+	height: auto;
+	max-height: 600px;
+	padding: 5px;
+}
+
